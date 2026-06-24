@@ -182,6 +182,7 @@ net.xirvik.seedbox = (function(my)
 							else
 								$('.xirvik-dlg #directories').hide();
 							$('.xirvik-dlg #torrents_start_stopped').attr('checked',my.extension.options.nostart);
+							$('.xirvik-dlg #not_add_path').attr('checked',my.extension.options.not_add_path);
 							$('.xirvik-dlg button.cancel').click( function()
 							{
 								$.fancybox.close();
