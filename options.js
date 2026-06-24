@@ -202,6 +202,7 @@ net.xirvik.seedbox = (function(my)
 			$("#progress-messageuc").prop('checked',my.extension.options.messageuc);
 			$("#progress-messageuf").prop('checked',my.extension.options.messageuf);
 			$("#upload-nostart").prop('checked',my.extension.options.nostart);
+			$("#upload-not-add-path").prop('checked',my.extension.options.not_add_path);
 			$("#console").prop('checked',my.extension.options.console);
 			$("#enabled").prop('checked',my.extension.options.enabled);
 			$("#upload-timeout").val(my.extension.options.timeout);
@@ -249,6 +250,7 @@ net.xirvik.seedbox = (function(my)
 				messageuc: $("#progress-messageuc").prop('checked'),
 				messageuf: $("#progress-messageuf").prop('checked'),
 				nostart: $("#upload-nostart").prop('checked'),
+				not_add_path: $("#upload-not-add-path").prop('checked'),
 				console: $("#console").prop('checked'),
 				enabled: $("#enabled").prop('checked'),
 				timeout: parseInt($("#upload-timeout").val()),
